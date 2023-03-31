@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Update gist
-        uses: suishounohibiki/productive-box@master
+        uses: suishounohibiki/git-box@master
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           GIST_ID: 524deab5de0c10a4004996d60214c03c
